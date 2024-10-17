@@ -26,6 +26,7 @@ header {
     margin-bottom: 20px;
 }
 
+
 .heding{
     display: flex;
     align-items: center;
@@ -33,12 +34,36 @@ header {
     background-color:#006769;
     color: #E6FF94;
 }
-.contant{
+.Slider {
+    position: relative;
     width: 100%;
-    height: 450px;
-    background-color: aqua;
+    max-width: 1400px; /* Adjust width according to your design */
+    height: 500px; /* Adjust height based on content */
+    overflow: hidden;
+    margin: 20px auto; /* To center the slider on the page */
+    border: 2px solid #ccc; /* Optional border for better visibility */
+  }
+  
+  .contant {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 100%; 
+    opacity: 0;
+    transition: left 2s ease, opacity 0.5s ease;
     display: flex;
-}
+  }
+  
+  .contant.active {
+    left: 0; /* Bring the active container to the view */
+    opacity: 1; /* Fade-in effect */
+  }
+  
+  .contant.previous {
+    left: -100%; /* Move the previous container out of view */
+    opacity: 0; /* Fade-out effect */
+  }
 
 .profile{
     background-color: #40A578;
