@@ -71,7 +71,7 @@ header {
   }
 
 .profile{
-    background-color: #40A578;
+    background-color: rgb(245, 231, 206);
     width: 50%;
     height: 100%;
     display: flex;
@@ -82,6 +82,18 @@ header {
 .text{
     margin-top: 60px;
 }
+.text p {
+    font-size: 15px; /* Adjust font size */
+    line-height: 1.5; /* Improve readability with line height */
+    color: #333; /* Change text color */
+    margin: 5px 0; /* Add margin for spacing */
+    text-align: justify; /* Justify text for a cleaner look */
+    padding: 5px; /* Add padding for better spacing */
+    background-color: rgba(255, 255, 255, 0.8); /* Optional: Add background color */
+    border-radius: 5px; /* Optional: Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for depth */
+    font-weight: 700;
+}
 
 .card{
     display: flex;
@@ -90,7 +102,7 @@ header {
     justify-content: center;
     background-color: #006769;
     width: 70%;
-    height: 82%;
+    height: 90%;
     border: 5px solid  #006769;
     border-radius: 11px;
 }
@@ -184,12 +196,26 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #40A578;
+    background-color: rgb(245, 231, 206);
     width: 50%;
     height: 100%;
+    flex-direction: column;
 }
 
-
+.revenue {
+    background-color:#006769; /* Light background color */
+    padding: 20px; /* Space inside the box */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow effect */
+    color:  #E6FF94; /* Text color */
+    font-size: 30px; /* Font size */
+    margin: 10px; /* Space outside the box */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+}
 
 /* Speedometer container */
 .speedometer {
