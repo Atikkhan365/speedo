@@ -17,6 +17,11 @@
     box-shadow: 0px 5px 15px 0px rgba(22, 27, 51, 0.75); 
 }
 
+.card h3{
+    margin-top: 232px;
+     color: #E6FF94; 
+     font-size: 34px;
+}
 .navbar img{
     width: 20rem;
 }
@@ -74,16 +79,19 @@ header {
     justify-content: center;
 
 }
+.text{
+    margin-top: 60px;
+}
+
 .card{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: #006769;
-    width: 50%;
+    width: 70%;
     height: 82%;
     border: 5px solid  #006769;
-    ;
     border-radius: 11px;
 }
 
@@ -107,12 +115,70 @@ header {
     margin-top: -59px;
     margin-left: 242px;
 }
-.men{
-    width: 21vw;
+.shadab{
+    width: 204px;
+    width: 200px;
     border-radius: 10px;
     margin-top: -64px;
     position: absolute;
 }
+
+.nishant{
+    width: 204px;
+    width: 200px;
+    border-radius: 10px;
+    margin-top: -64px;
+    position: absolute;
+
+}
+.sumit{
+    width: 204px;
+    width: 248px;
+    border-radius: 10px;
+    margin-top: -64px;
+    position: absolute;
+}
+.anuj{
+    width: 204px;
+    width: 250px;
+    border-radius: 10px;
+    margin-top: -64px;
+    position: absolute;
+
+}
+.madhuri{width: 204px;
+    width: 290px;
+    border-radius: 10px;
+    margin-top: -64px;
+    position: absolute;
+}
+
+.radha{
+    width: 204px;
+    width: 290px;
+    border-radius: 10px;
+    margin-top: -64px;
+    position: absolute;
+
+}
+.rahul{
+    width: 204px;
+    width: 290px;
+    border-radius: 10px;
+    margin-top: -64px;
+    position: absolute;
+
+}
+
+
+.men{
+    width: 204px;
+    width: 200px;
+    border-radius: 10px;
+    margin-top: -64px;
+    position: absolute;
+}
+    
 
 .speed{
     display: flex;

@@ -182,4 +182,4 @@ function showNextContainer() {
 containers[currentIndex].classList.add('active');
 
 // Set interval to automatically switch slides every 10 seconds
-setInterval(showNextContainer, 10000);
+setInterval(showNextContainer, 50000);
