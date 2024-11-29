@@ -155,7 +155,6 @@ header {
     margin-left: 242px;
 }
 .shadab{
-    width: 204px;
     width: 200px;
     border-radius: 10px;
     margin-top: -64px;
@@ -163,7 +162,6 @@ header {
 }
 
 .nishant{
-    width: 204px;
     width: 200px;
     border-radius: 10px;
     margin-top: -64px;
@@ -171,21 +169,19 @@ header {
 
 }
 .sumit{
-    width: 204px;
     width: 248px;
     border-radius: 10px;
     margin-top: -64px;
     position: absolute;
 }
 .anuj{
-    width: 204px;
     width: 250px;
     border-radius: 10px;
     margin-top: -64px;
     position: absolute;
 
 }
-.madhuri{width: 204px;
+.madhuri{
     width: 290px;
     border-radius: 10px;
     margin-top: -64px;
@@ -193,7 +189,6 @@ header {
 }
 
 .radha{
-    width: 204px;
     width: 290px;
     border-radius: 10px;
     margin-top: -64px;
@@ -201,7 +196,6 @@ header {
 
 }
 .rahul{
-    width: 204px;
     width: 290px;
     border-radius: 10px;
     margin-top: -64px;
@@ -211,7 +205,6 @@ header {
 
 
 .men{
-    width: 204px;
     width: 200px;
     border-radius: 10px;
     margin-top: -64px;
